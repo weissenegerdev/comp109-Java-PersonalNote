@@ -11,7 +11,8 @@ public class BMIProject {
         System.out.print("Input your height in meter: ");   
              double height = input.nextDouble();
 
-        double BMI = weight / (height*height);                     // BMI = weight(kg) / ( (height-m)* (height-m))          //This is BMI formula
+        double BMI = weight / (height*height);                     // BMI = weight(kg) / ( (height-m)* (height-m))
+
         System.out.println("Your BMI score is:" + BMI);
 
 
